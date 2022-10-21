@@ -1,8 +1,8 @@
 FROM python:3.10.1-slim-buster
 
 # set working directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+
+WORKDIR C:\Users\Taylor\Projects\fastapi_advanced_pooling_connection\venv
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
