@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: surrealdb
+Version: 0.1.0
+Summary: The official SurrealDB library for Python.
+License: Apache-2.0
+Author: SurrealDB
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: speedups
+Requires-Dist: aiohttp (>=3.8.1)
+Requires-Dist: httpx (>=0.23.0)
