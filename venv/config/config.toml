@@ -1,0 +1,25 @@
+[title]
+title = "Configuration File"
+
+[owner]
+name = "Taylor"
+
+[database]
+name = "SurrealDB"
+user = "root"
+password = "root"
+namespace = "project_surrealapi_multi"
+database = "initiative"
+enable = "True"
+db_type = "SurrealDB File Storage"
+
+[servers]
+
+[servers.FastAPI]
+host = "localhost"
+port = 8000
+
+[servers.SurrealDB]
+host = "localhost"
+port = 8082
+

@@ -1,7 +1,15 @@
-from fastapi import FastAPI
+from fastapi import APIRouter
 
-app = FastAPI()
+router = APIRouter()
 
-@app.get("/")
+@router.get("/")
 async def get_home():
     return {"info": "Welcome to the Something API"}
+
+
+
+
+
+
+
+
